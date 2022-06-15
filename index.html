@@ -1,28 +1,33 @@
-<h1> Lauren's Turkish Board </h1>
+<head>
+	<title>Lauren's Turkish Board</title>
+</head>
+<body>
+	<h1> Lauren's Turkish Board </h1>
 
 
-<script>
-var count = 335;
-var sscount = 0;
-const stars = document.createElement("div");
-stars.style.cssText = "inline-size: 550px;overflow-wrap: break-word;";
-stars.append(document.createTextNode( sscount + " super stars!"));
-stars.append(document.createElement("br"));
-stars.append(document.createTextNode( count + " stars!"));
-stars.append(document.createElement("br"));
-stars.append(document.createElement("br"));
+	<script>
+	var count = 335;
+	var sscount = 0;
+	const stars = document.createElement("div");
+	stars.style.cssText = "inline-size: 550px;overflow-wrap: break-word;";
+	stars.append(document.createTextNode( sscount + " super stars!"));
+	stars.append(document.createElement("br"));
+	stars.append(document.createTextNode( count + " stars!"));
+	stars.append(document.createElement("br"));
+	stars.append(document.createElement("br"));
 
-for (let i = 0; i < sscount; i++) {
-	stars.appendChild(document.createTextNode("\uD83C\uDF20"));
-}
+	for (let i = 0; i < sscount; i++) {
+		stars.appendChild(document.createTextNode("\uD83C\uDF20"));
+	}
 
-stars.append(document.createElement("br"));
+	stars.append(document.createElement("br"));
 
-for (let i = 0; i < count; i++) {
-	stars.appendChild(document.createTextNode("\u2B50"));
-}
+	for (let i = 0; i < count; i++) {
+		stars.appendChild(document.createTextNode("\u2B50"));
+	}
 
-	
 
-document.body.appendChild(stars);
-</script>
+
+	document.body.appendChild(stars);
+	</script>
+</body>
